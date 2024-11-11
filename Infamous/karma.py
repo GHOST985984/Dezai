@@ -24,7 +24,7 @@ ALIVE_ANIMATION = [
 ]
 
 
-PM_START_TEXT = "✨ *𝐊𝐨𝐧𝐧𝐢𝐜𝐡𝐢𝐰𝐚!!, {mention} 
+PM_START_TEXT = "✨ *𝐊𝐨𝐧𝐧𝐢𝐜𝐡𝐢𝐰𝐚!!, {mention}*" 
 
 •𝐌𝐲 𝐈𝐧𝐟𝐨  ➲  Iᴛ's ᴍᴇ Osᴀᴍᴜ Dᴀᴢᴀɪ, ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
 
