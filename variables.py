@@ -23,7 +23,7 @@ class Config(object):
     API_HASH = ""
 
     # Database configuration (PostgreSQL)
-    DATABASE_URL = "postgres:"
+    DATABASE_URL = "postgresql://postgresql://Marinjiprobot:fRcGmtNf9yWl6r_QeMZwqg@plush-jindo-4839.j77.aws-eu-west-1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full:fRcGmtNf9yWl6r_QeMZwqg@plush-jindo-4839.j77.aws-eu-west-1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full"
 
     # Event logs chat ID and message dump chat ID
     EVENT_LOGS = -100
@@ -37,10 +37,8 @@ class Config(object):
     SUPPORT_ID = -100
 
     # Database name
-    DB_NAME = ""
-
-    # Bot token
-    TOKEN = ""  # Get bot token from @BotFather on Telegram
+    DB_NAME = "Marinjiprobot"
+    TOKEN = "6257629560:AAHi9FSlPQ5LlQWH8bs9Q_hdsBOY0zSxMXY"  # Get bot token from @BotFather on Telegram
 
     # Owner's Telegram user ID (Must be an integer)
     OWNER_ID = 5907205317
