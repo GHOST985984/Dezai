@@ -10,26 +10,17 @@ from Mikobot import BOT_USERNAME, OWNER_ID, SUPPORT_CHAT
 
 # <============================================== CONSTANTS =========================================================>
 START_IMG = [
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "https://i.ibb.co/gSGYb16/e1a5590de05a.jpg",
+    "https://i.ibb.co/WHTZ11T/1990095beff7.jpg", 
 ]
 
-HEY_IMG = "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg"
+HEY_IMG = ""
 
 ALIVE_ANIMATION = [
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "https://i.ibb.co/bFmcWpr/27083990ab27.jpg",
+    "https://i.ibb.co/R3s3r4F/8a5bf7d8594d.jpg",
+    "https://i.ibb.co/QK1zhw3/156005c2e6cb.jpg",
+    "https://i.ibb.co/LNbs292/8c6b814576f3.jpg",
 ]
 
 
