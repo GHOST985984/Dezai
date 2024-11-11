@@ -32,9 +32,14 @@ ALIVE_ANIMATION = [
     "",
 ]
 
-FIRST_PART_TEXT = "✨ *ʜᴇʟʟᴏ* `{}` . . ."
 
-PM_START_TEXT = "✨ *ɪ ᴀᴍ ᴍɪᴋᴏ, ᴀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*"
+PM_START_TEXT = "✨ *𝐊𝐨𝐧𝐧𝐢𝐜𝐡𝐢𝐰𝐚!!, {mention} 
+
+•𝐌𝐲 𝐈𝐧𝐟𝐨  ➲  Iᴛ's ᴍᴇ Osᴀᴍᴜ Dᴀᴢᴀɪ, ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
+
+•𝐌𝐲 𝐉𝐨𝐛  ➲ I ᴀᴍ ᴛʜᴇ ᴜʟᴛɪᴍᴀᴛᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ . Mʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴs ᴀʀᴇ ᴘᴇʀғᴇᴄᴛ ғᴏʀ ᴋᴇᴇᴘɪɴɢ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴏʀɢᴀɴɪᴢᴇᴅ, ᴇɴɢᴀɢᴇᴅ, ᴀɴᴅ sᴘᴀᴍ-ғʀᴇᴇ!
+
+• Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ*"
 
 START_BTN = [
     [
@@ -70,8 +75,8 @@ GROUP_START_BTN = [
 
 ALIVE_BTN = [
     [
-        ib(text="UPDATES", url="https://t.me/Hydra_Updates"),
-        ib(text="SUPPORT", url="https://t.me/hydraXsupport"),
+        ib(text="UPDATES", url="https://t.me/Dazai_Updates"),
+        ib(text="SUPPORT", url="https://t.me/Team7_Support_chats"),
     ],
     [
         ib(
