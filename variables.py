@@ -19,22 +19,22 @@ class Config(object):
 
     # <================================================ REQUIRED ======================================================>
     # Telegram API configuration
-    API_ID = 204 # Get this value from my.telegram.org/apps
-    API_HASH = ""
+    API_ID = "9552179" # Get this value from my.telegram.org/apps
+    API_HASH = "fa6e0313afd8259094486d3256242102"
 
     # Database configuration (PostgreSQL)
     DATABASE_URL = "postgresql://postgresql://Marinjiprobot:fRcGmtNf9yWl6r_QeMZwqg@plush-jindo-4839.j77.aws-eu-west-1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full:fRcGmtNf9yWl6r_QeMZwqg@plush-jindo-4839.j77.aws-eu-west-1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full"
 
     # Event logs chat ID and message dump chat ID
-    EVENT_LOGS = -100
-    MESSAGE_DUMP = -100
+    EVENT_LOGS = -1001972158659
+    MESSAGE_DUMP = -1001706506258
 
     # MongoDB configuration
-    MONGO_DB_URI = ""
+    MONGO_DB_URI = "mongodb+srv://Dazai819191:darai_roxbot001@dazai.tw3iy.mongodb.net/?retryWrites=true&w=majority&appName=Dazai"
 
     # Support chat and support ID
-    SUPPORT_CHAT = ""
-    SUPPORT_ID = -100
+    SUPPORT_CHAT = "Team7_Support_chats"
+    SUPPORT_ID = -1001706506258
 
     # Database name
     DB_NAME = "Marinjiprobot"
