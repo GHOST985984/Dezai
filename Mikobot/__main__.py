@@ -88,6 +88,60 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
+HELP_MSG = "ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴍᴇɴᴜ ɪi~"
+START_MSG = "* I ᴀᴍ ᴡᴇʟʟ ᴀɴᴅ ᴀʟɪᴠᴇ ;)"
+
+
+PM_START_TEX = """
+✨ *ʜᴇʟʟᴏ* `{}` . . . 
+"""
+
+PM_START_TEXT = """
+✨ *𝐊𝐨𝐧𝐧𝐢𝐜𝐡𝐢𝐰𝐚, 𝐌𝐲 𝐈𝐧𝐟𝐨  ➲  Iᴛ's ᴍᴇ Osᴀᴍᴜ Dᴀᴢᴀɪ, ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
+
+•𝐌𝐲 𝐉𝐨𝐛  ➲ I ᴀᴍ ᴛʜᴇ ᴜʟᴛɪᴍᴀᴛᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ . Mʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴs ᴀʀᴇ ᴘᴇʀғᴇᴄᴛ ғᴏʀ ᴋᴇᴇᴘɪɴɢ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴏʀɢᴀɴɪᴢᴇᴅ, ᴇɴɢᴀɢᴇᴅ, ᴀɴᴅ sᴘᴀᴍ-ғʀᴇᴇ!
+
+• Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ*
+"""
+
+
+GROUP_START_TEXT = """
+ɪ'ᴍ ᴀᴍ ᴀᴍ ᴀʟɪᴠᴇ !
+
+ʜᴀᴠᴇɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ: {} 
+"""
+
+buttons = [
+    [
+        InlineKeyboardButton(
+            text="⛩️ ADD ME TO YOUR GROUP ⛩️",
+            url=f"t.me/{BOT_USERNAME}?startgroup=true",
+        )
+    ],
+    [
+        InlineKeyboardButton(text="HELP", callback_data="help_back"),
+        InlineKeyboardButton(text="AI", callback_data="ai_handler"),
+        InlineKeyboardButton(text="SOURCE", callback_data="git_source"),
+    ],
+    [
+        InlineKeyboardButton(text="MUSIC", callback_data="music_help"),
+        InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/Team7_Support_chats"),
+        InlineKeyboardButton(text="DETAILS", callback_data="about_"),
+    ],
+]
+
+
+HELP_STRINGS = """
+🫧 *Yae-Miko* 🫧
+
+☉ *Here, you will find a list of all the available commands.*
+
+ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
+"""
+
+DONATE_STRING = """ᴊᴜsᴛ sᴜᴘᴘᴏʀᴛ ᴜs, ᴡᴇ ᴡɪʟʟ ʙᴇ ᴍᴏʀᴇ ᴛʜᴀɴ ʜᴀᴘᴘʏ"""
+
+
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -601,7 +655,7 @@ async def stats_back(update: Update, context: ContextTypes.DEFAULT_TYPE):
         mem = psutil.virtual_memory().percent
         disk = psutil.disk_usage("/").percent
         text = f"""
-𝙎𝙮𝙨𝙩𝙚𝙢 𝙨𝙩𝙖𝙩𝙨@𝙔𝙖𝙚𝙈𝙞𝙠𝙤_𝙍𝙤𝙭𝙗𝙤𝙩
+𝙎𝙮𝙨𝙩𝙚𝙢 𝙨𝙩𝙖𝙩𝙨 
 ➖➖➖➖➖➖
 UPTIME ➼ {uptime}
 CPU ➼ {cpu}%
